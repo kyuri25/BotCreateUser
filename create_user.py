@@ -18,7 +18,7 @@ class Criaruser:
         company = input('company:')
         groups = input('groups: ')
 
-        self.driver.get('https://acsnetbr.sdasystems.org/AccessControl/User')
+        self.driver.get('https://site.empresa.org/AccessControl/User')
 
         time.sleep(10)
 
